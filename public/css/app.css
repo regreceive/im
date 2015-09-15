@@ -1,0 +1,48 @@
+/* app css stylesheet */
+
+.overflowable {
+  height: 240px;
+  overflow-y: auto;
+  border: 1px solid #000;
+}
+
+.overflowable p {
+  margin: 0;
+}
+.users p {
+  cursor: pointer;
+  position: relative;
+}
+.users p .menu {
+  position: absolute;
+  margin: -3px 0 0 10px;
+  background-color: brown;
+  padding: 3px;
+  border-radius: 3px;
+  color: #fff;
+}
+.users p .menu:hover {
+  background-color: #cc0000;
+}
+
+.accept {
+  width: 300px;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: calc(50% - 50px);
+  background: #ffff4f;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0,0,0,.5);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.col {
+  float: left;
+  width: 350px;
+}
+
+.clr {
+  clear: both;
+}
